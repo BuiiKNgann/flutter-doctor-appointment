@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1016416650035",
+    "project_id": "phoneauth-d5037",
+    "storage_bucket": "phoneauth-d5037.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1016416650035:android:4877b61d7126adf5f1b446",
+        "android_client_info": {
+          "package_name": "com.example.doc_appointment"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCN2vwHLUqVqF22tgGZZzmaG9Hs-XUS5Z8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1016416650035:android:672b02cc2b1e1252f1b446",
+        "android_client_info": {
+          "package_name": "com.example.phoneauth"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCN2vwHLUqVqF22tgGZZzmaG9Hs-XUS5Z8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
