@@ -1,5 +1,14 @@
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath("com.google.gms:google-services:4.4.2") // Sửa dòng này
+    }
+}
+
 plugins {
-    // Các plugin hiện có của bạn (nếu có)
     id("com.google.gms.google-services") version "4.4.2" apply false
 }
 
@@ -17,6 +26,7 @@ subprojects {
     val newSubprojectBuildDir: Directory = newBuildDir.dir(project.name)
     project.layout.buildDirectory.value(newSubprojectBuildDir)
 }
+
 subprojects {
     project.evaluationDependsOn(":app")
 }
