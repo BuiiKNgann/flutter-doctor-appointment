@@ -203,7 +203,7 @@ class _LoginPageState extends State<LoginPage> {
                                   ), // Optional: Padding inside the button
                                 ),
                                 child: Text(
-                                  'Login',
+                                  'Đăng nhập',
                                   style: GoogleFonts.poppins(
                                     fontSize: 17,
                                     color: Colors.white,
@@ -226,7 +226,7 @@ class _LoginPageState extends State<LoginPage> {
                                   );
                                 },
                                 child: Text(
-                                  'Don’t have an account? Register',
+                                  'Bạn chưa có tài khoản? Đăng ký',
                                   style: GoogleFonts.poppins(
                                     fontSize: 15,
                                     fontWeight: FontWeight.w400,
