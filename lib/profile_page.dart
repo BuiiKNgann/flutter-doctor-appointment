@@ -681,7 +681,9 @@ class _ProfilePageState extends State<ProfilePage> {
                                           ),
                                           const SizedBox(height: 4),
                                           Text(
-                                            'Bác sĩ chuyên khoa',
+                                            doctor != null
+                                                ? doctor.category
+                                                : 'Bác sĩ chuyên khoa',
                                             style: TextStyle(
                                               fontSize: 14,
                                               color: Colors.grey[600],
